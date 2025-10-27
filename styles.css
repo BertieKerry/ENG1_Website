@@ -1,0 +1,77 @@
+body {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0px auto;
+  max-width: 950px;
+  color: #f5e9d2;
+  padding: 0 10px;
+  background-color: #2b1f14;
+}
+
+body p {
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #3e2a1c;
+  padding: 5px;
+  text-align: center;
+  font-size: 35px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Container for flexbox boxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+
+/* Creates equal columns that all sit next to each other */
+.row a {
+  flex: 1;
+  min-width: 250px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  background: #4a3422;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #f5e9d2
+}
+
+/* Changes appearance on hover */
+.row a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background: #785437;
+  color: #bd9d5d;
+  text-decoration: underline;
+}
+
+/* Fixes scaling of SVG icons */
+.icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+
+.footer {
+  background-color: #3e2a1c;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}

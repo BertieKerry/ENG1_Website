@@ -8,7 +8,7 @@ body {
   background-color: #2b1f14;
 }
 
-body p {
+p {
   line-height: 1.6;
 }
 
@@ -74,4 +74,11 @@ body p {
   text-align: center;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+
+.box {
+  background-color: #4a3422;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 12px;
 }
